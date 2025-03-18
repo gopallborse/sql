@@ -13,13 +13,13 @@
             "name": "mysql1",
             "database": "talently",
             "username": "root",
-            "askForPassword": true
+            "password": "MySQL@2100"
         },
         {
             "previewLimit": 50,
             "server": "localhost",
             "port": 5432,
-            "askForPassword": true,
+            "password": "Postgres@2100",
             "driver": "PostgreSQL",
             "name": "postgres1",
             "database": "talently",
