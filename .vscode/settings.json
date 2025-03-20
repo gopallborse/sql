@@ -11,7 +11,7 @@
             "port": 3306,
             "driver": "MySQL",
             "name": "mysql1",
-            "database": "sales_example",
+            "database": "relations",
             "username": "root",
             "password": "MySQL@2100"
         },
@@ -22,7 +22,7 @@
             "password": "Postgres@2100",
             "driver": "PostgreSQL",
             "name": "postgres1",
-            "database": "sales_example",
+            "database": "relations",
             "username": "postgres"
         }
     ]
