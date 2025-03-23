@@ -2,6 +2,16 @@
     "sqltools.autoOpenSessionFiles": false,
     "sqltools.connections": [
         {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "password": "Postgres@2100",
+            "driver": "PostgreSQL",
+            "name": "postgres1",
+            "database": "relations",
+            "username": "postgres"
+        },
+        {
             "mysqlOptions": {
                 "authProtocol": "default",
                 "enableSsl": "Disabled"
@@ -14,16 +24,6 @@
             "database": "relations",
             "username": "root",
             "password": "MySQL@2100"
-        },
-        {
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 5432,
-            "password": "Postgres@2100",
-            "driver": "PostgreSQL",
-            "name": "postgres1",
-            "database": "relations",
-            "username": "postgres"
         }
     ]
 }
