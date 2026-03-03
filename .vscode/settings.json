@@ -2,25 +2,27 @@
     "sqltools.autoOpenSessionFiles": false,
     "sqltools.connections": [
         {
+            "ssh": "Disabled",
             "previewLimit": 50,
             "server": "localhost",
             "port": 5432,
-            "password": "Postgres@2100",
             "driver": "PostgreSQL",
-            "name": "postgres1",
+            "name": "postgres",
             "database": "relations",
-            "username": "postgres"
+            "username": "postgres",
+            "password": "Postgres@2100"
         },
         {
             "mysqlOptions": {
                 "authProtocol": "default",
                 "enableSsl": "Disabled"
             },
+            "ssh": "Disabled",
             "previewLimit": 50,
             "server": "localhost",
             "port": 3306,
             "driver": "MySQL",
-            "name": "mysql1",
+            "name": "mysql",
             "database": "relations",
             "username": "root",
             "password": "MySQL@2100"
