@@ -1,31 +1,31 @@
 {
-    "sqltools.autoOpenSessionFiles": false,
-    "sqltools.connections": [
-        {
-            "ssh": "Disabled",
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 5432,
-            "driver": "PostgreSQL",
-            "name": "postgres",
-            "database": "relations",
-            "username": "postgres",
-            "password": "Postgres@2100"
-        },
-        {
-            "mysqlOptions": {
-                "authProtocol": "default",
-                "enableSsl": "Disabled"
-            },
-            "ssh": "Disabled",
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 3306,
-            "driver": "MySQL",
-            "name": "mysql",
-            "database": "relations",
-            "username": "root",
-            "password": "MySQL@2100"
-        }
-    ]
+  "sqltools.autoOpenSessionFiles": false,
+  "sqltools.connections": [
+    {
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "postgres",
+      "database": "chinook",
+      "username": "postgres",
+      "password": "Postgres@2100"
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "mysql",
+      "database": "chinook",
+      "username": "root",
+      "password": "MySQL@2100"
+    }
+  ]
 }
